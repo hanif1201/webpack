@@ -1,0 +1,6 @@
+//gitignore node module
+
+//i want git to ignore some files, how will i wrte it in the gitingore files
+//node_modules
+
+node_modules
