@@ -7,4 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
   },
+  resolve: {
+    fallback: {
+      util: require.resolve("util/"),
+    },
+  },
 };
